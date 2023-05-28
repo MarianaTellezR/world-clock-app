@@ -16,7 +16,7 @@ body {
   margin: 30px auto;
   margin-bottom: 15px;
 
-  padding: 30px 40px;
+  padding: 30px 35px;
   border-radius: 20px;
 
   /* offset-x | offset-y | blur-radius | spread-radius | color */
@@ -38,7 +38,7 @@ select {
   font-size: 18px;
   color: rgb(115, 120, 124);
 
-  width: 95%;
+  width: 80%;
 
   display: block;
   margin: 25px auto;
@@ -49,10 +49,10 @@ select {
 }
 
 .city {
-  height: 250px;
-  width: 250px;
+  height: 235px;
+  width: 235px;
 
-  background-image: url("../img/earth.png");
+  background-image: url("../img/earthworld.png");
   background-repeat: no-repeat;
 
   box-shadow: 2px 2px 30px 2px rgba(218, 109, 103, 0.315);
@@ -61,7 +61,7 @@ select {
   display: block;
   margin: 20px auto;
 
-  padding-top: 75px;
+  padding-top: 70px;
   padding-left: 13px;
   padding-right: 13px;
 }
@@ -78,7 +78,7 @@ select {
 
 .name h2 {
   margin-bottom: 0px;
-  font-size: 27px;
+  font-size: 25px;
   font-weight: 600;
 }
 
@@ -93,7 +93,7 @@ select {
 
 .date h3 {
   text-align: center;
-  font-size: 16px;
+  font-size: 14px;
   margin: 10px;
   color: #ec766f;
 }
