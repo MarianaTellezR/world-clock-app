@@ -1,9 +1,6 @@
 body {
-  background: linear-gradient(
-    148deg,
-    rgb(236, 111, 105) 0%,
-    rgb(255, 218, 165) 100%
-  );
+  background: linear-gradient(148deg, rgb(236, 111, 105), rgb(255, 218, 165))
+    fixed;
 
   font-family: "Raleway", sans-serif;
 }
@@ -112,6 +109,8 @@ select {
   text-align: center;
   font-size: 25px;
   margin-bottom: 0px;
+
+  font-family: "Jost", sans-serif;
 }
 
 .time small {

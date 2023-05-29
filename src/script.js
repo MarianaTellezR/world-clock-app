@@ -95,7 +95,7 @@ setInterval(updateTime, 1000);
 
 function updateCity(event) {
   let cityTimeZone = event.target.value;
-  if(cityTimeZone === "current") {
+  if (cityTimeZone === "current") {
     cityTimeZone = moment.tz.guess();
   }
   let cityName = cityTimeZone.replace("_", " ").split("/")[1];
@@ -120,8 +120,12 @@ function updateCity(event) {
             </div>
         </div>
     </div>
-    <a href="index.html">Return to all cities</a>
+    <a href="index.html">Back to all cities</a>
     `;
+
+  setTimeout(() => {
+    updateCity(event);
+  }, 1000);
 }
 
 let citiesSelectElement = document.querySelector("#city-select");
