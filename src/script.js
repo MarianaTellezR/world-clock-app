@@ -120,6 +120,7 @@ function updateCity(event) {
             </div>
         </div>
     </div>
+    <a href="index.html">Return to all cities</a>
     `;
 }
 
