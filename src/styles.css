@@ -131,3 +131,33 @@ a {
   font-weight: 600;
   color: rgb(252, 252, 252);
 }
+
+@media (max-width: 400px) {
+  .city {
+    height: 150px;
+    width: 150px;
+
+    background-image: url("../img/150world.png");
+    background-repeat: no-repeat;
+
+    padding-top: 40px;
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+  .name h2 {
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .date h3 {
+    font-size: 12px;
+    margin: 5px;
+  }
+  .time h4 {
+    font-size: 13px;
+    margin-bottom: 0px;
+  }
+  .time small {
+    font-size: 10px;
+  }
+}
