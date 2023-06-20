@@ -133,6 +133,9 @@ a {
 }
 
 @media (max-width: 400px) {
+  h1 {
+    font-size: 25px;
+  }
   .city {
     height: 150px;
     width: 150px;
